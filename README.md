@@ -5,27 +5,39 @@ Reference Document: FRS (Functional Requirement Specification)
 Testers: Sabbir and Rafi (Group Project)
 Creation Date: 2025-10-03
 
-#🔍 Testing Scope & Covered Modules:
-Module	Description
-Register	Tests for user registration with valid, invalid, and missing data.
-Login	Covers login with valid and invalid credentials, and system behavior post-login.
-Logout	Includes logout action, session timeout handling, and user experience validation.
-Search	Verifies visibility and functionality of the search bar and icon with hover states.
-Add to Cart	Checks the presence, functionality, and flow of cart operations including "Add", "Continue", and empty cart scenarios.
+#🔍 Testing-Scope-(Modules-Covered)
+Register - Test sign-up with valid/invalid inputs
 
-#🧪 Sample Test Case Structure (from all modules):
-Field	Example
-Test Case ID	TC_RF_001, TC_LF_002, etc.
-Test Scenario	Register/Login Functionality
-Test Case Title	"Verify that Register an Account by providing only valid phone number"
-Pre-requisites	"Open the Application: https://www.daraz.com.bd"
-Test Steps	Step-by-step action like click, input, hover, submit
-Test Data	Often Not Applicable, but varies with case
-Expected Result	Clearly defined expected outcome like successful login, error message, etc.
-Actual Result	Matched or deviation from expected result
-Priority	P0 / P1 / P2 / P3
-Result	PASS / FAIL
-Comments	Notes or bug IDs (e.g., DARAZ-BUG-1)
+Login - Check login with correct/wrong data
+
+Logout - Test manual and auto logout
+
+Search - Check search bar and icon behavior
+
+Add-to-Cart - Verify add to cart and empty cart flow
+
+🧪 Test-Case-Format-(Simplified)
+ID - TC_RF_001
+
+Scenario - Register/Login
+
+Title - Check register with phone number
+
+Pre-steps - Open daraz.com.bd
+
+Steps - Click, input, hover, submit
+
+Test-Data - If needed
+
+Expected - What should happen
+
+Actual - What actually happened
+
+Priority - P0–P3
+
+Result - PASS / FAIL
+
+Comments - Bug ID or notes
 
 #🐞 Bug Tracking Notes:
 Issues are tracked using comments like DARAZ-BUG-1, DARAZ-BUG-2 on failing test cases.
