@@ -8,22 +8,36 @@ Creation Date: 2025-10-03
 #🔍 Testing-Scope-(Modules-Covered)
 
 Register - Test sign-up with valid/invalid inputs
+
 Login - Check login with correct/wrong data
+
 Logout - Test manual and auto logout
+
 Search - Check search bar and icon behavior
+
 Add-to-Cart - Verify add to cart and empty cart flow
 
 #🧪 Test-Case-Format-(Simplified)
 ID - TC_RF_001
+
 Scenario - Register/Login
+
 Title - Check register with phone number
+
 Pre-steps - Open daraz.com.bd
+
 Steps - Click, input, hover, submit
+
 Test-Data - If needed
+
 Expected - What should happen
+
 Actual - What actually happened
+
 Priority - P0–P3
+
 Result - PASS / FAIL
+
 Comments - Bug ID or notes
 
 #🐞 Bug Tracking Notes:
